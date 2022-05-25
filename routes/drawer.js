@@ -16,5 +16,3 @@ const screens = {
 const RootDrawerNavigator = createDrawerNavigator(screens);
 
 export default createAppContainer(RootDrawerNavigator);
-
-
