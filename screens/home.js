@@ -5,7 +5,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import LoginScreen from './login'
 
 export default function Home({ navigation }) {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(true);
   return (
     <View style={globalStyles.container}>
       <Modal visible={modalOpen}  animationType='slide'>
